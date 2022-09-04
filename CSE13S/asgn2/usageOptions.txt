@@ -1,0 +1,24 @@
+SYNOPSIS
+   Performs numerical integrations using composite Simpson's 1/3 rule.
+
+USAGE
+   ./integrate [REQUIRED] [REQUIRED] [REQUIRED] [OPTIONAL]
+
+FORMATTING EX
+   ./integrate [-a] [-p#] [-q#] [-n#]
+
+OPTIONS
+  -a               sqrt(1 - x^4)
+  -b               1/log(x)
+  -c               exp(-x^2)
+  -d               sin(x^2)
+  -e               cos(x^2)
+  -f               log(log(x))
+  -g               sin(x)/x
+  -h               exp(-x)/x
+  -i               exp(exp(x))
+  -j               sqrt(sin^2(x) + cos^2(x))
+  -n partitions    Maximum number of partitions.
+  -p low           Set low end of integral interval.
+  -q high          Set high end of integral interval.
+  -H               Display program synopsis and usage.
