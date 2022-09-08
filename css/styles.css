@@ -52,7 +52,6 @@ nav img{
 
 }
 
-
 .name {
     padding-top: 5pc;
     text-align: center;
@@ -67,4 +66,41 @@ nav img{
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+}
+
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.social{
+    display: flex;
+    align-content: center;
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+    flex: 1;
+}
+
+.social li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+.social li a i img{
+    display: inline-block;
+    
+}
+
+.social li a i img:hover{
+    opacity: .5;
+    transition: 0.3s;
 }
