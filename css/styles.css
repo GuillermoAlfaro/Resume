@@ -39,7 +39,7 @@ nav img{
     font-size: 15px;
 }
 .nav-links ul li::after{
-    content: '';
+    content: '';    
     width: 0%;
     height: 2px;
     background: #6897ee;
@@ -78,29 +78,24 @@ nav img{
 }
 
 .social{
-    display: flex;
-    align-content: center;
-    max-width: 50px;
-    max-height: 50px;
-    width: auto;
-    height: auto;
     flex: 1;
+    text-align: center;
 }
 
-.social li{
+.social ul li{
     list-style: none;
     display: inline-block;
-    padding: 8px 12px;
+    padding: 10px 10px;
     position: relative;
+}
+
+.social ul li img{
+    max-width: 50px;
+    max-height: 50px;
 
 }
 
-.social li a i img{
-    display: inline-block;
-    
-}
-
-.social li a i img:hover{
-    opacity: .5;
-    transition: 0.3s;
+.social ul li img:hover{
+    filter: sepia(100%);
+    transition: .5s;
 }
