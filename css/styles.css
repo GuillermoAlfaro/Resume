@@ -39,7 +39,7 @@ nav img{
     font-size: 15px;
 }
 .nav-links ul li::after{
-    content: '';    
+    content: '';
     width: 0%;
     height: 2px;
     background: #6897ee;
@@ -49,13 +49,6 @@ nav img{
 }
 .nav-links ul li:hover::after{
     width: 100%;
-
-}
-
-.name {
-    padding-top: 5pc;
-    text-align: center;
-
 }
 
 .text-box{
@@ -82,20 +75,20 @@ nav img{
     text-align: center;
 }
 
-.social ul li{
+.social li{
     list-style: none;
     display: inline-block;
     padding: 10px 10px;
     position: relative;
 }
 
-.social ul li img{
+.social li img{
     max-width: 50px;
     max-height: 50px;
 
 }
 
-.social ul li img:hover{
-    filter: sepia(100%);
-    transition: .5s;
+.social li img:hover{
+    filter: invert(77%);
+    transition: .4s;
 }
