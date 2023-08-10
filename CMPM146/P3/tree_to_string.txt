@@ -1,0 +1,11 @@
+INFO:root:
+Selector: High Level Ordering of Strategies
+| Sequence: Offensive Strategy
+| | Action: attack_best
+| Sequence: Defensive Strategy
+| | Check: enemy_fleets_attacking
+| | Action: defend_optimized
+| Sequence: Spread Strategy
+| | Check: if_neutral_planet_available
+| | Action: spread_neutral
+| Action: attack_best
