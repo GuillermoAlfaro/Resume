@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/mediaqueriers.css">
+    <link rel="icon" type="image/png" href="../assets/favicon.png">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <a href="../index.html">
+            <div class="logo">Guillermo Alfaro</div>
+        </a>
+        <div>
+            <ul class="nav-links">
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#experience">Experience</a></li>
+                <li><a href="../index.html#projects">Projects</a></li>
+                <li><a href="../index.html#contact">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Guillermo Alfaro</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="../index.html#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="../index.html#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="../index.html#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="../index.html#contact" onclick="toggleMenu()">Contacts</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="projects">
+        <p class="section__text__p1">More class and personal</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="../assets/project-2.jpg" alt="Mario Ai Project" class="project-img" >
+                    </div>
+                    <h2 class="experience-sub-title project-title">Generative Mario Levels</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/GuillermoAlfaro/Resume/tree/main/CMPM146/P5'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="../assets/Pathfinding_2D_Illustration.png" alt="Path Finding project" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Path Finding AI</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/GuillermoAlfaro/Resume/tree/main/CMPM146/P1'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="../assets/authorIdentification.jpg" alt="Author Identification Project"  class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">ML Author Identification</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/GuillermoAlfaro/Resume/tree/main/CSE13S/asgn7'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="../assets/theGameOfLife.gif" alt="The game of life project"  class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">The Game of Life Simulation</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/GuillermoAlfaro/Resume/tree/main/CSE13S/asgn4'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="../assets/depthFirstSearch.jpg" alt="Depth First Search"  class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Graph DFS <br>using C</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/GuillermoAlfaro/Resume/tree/main/CSE101/pa3'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="../assets/arrow.png" alt="arrow icon" class="icon arrow projects" onclick="location.href='../index.html#projects'">
+    </section>
+    <script src="../js/script.js"></script>
+</body>
+</html>

@@ -271,6 +271,7 @@ section {
 
 .about-containers {
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .about-details-container {
@@ -378,6 +379,28 @@ article .icon {
 .project-btn {
     color: black;
     border-color: rgb(163, 163, 163);
+}
+
+.icon.arrow.projects{
+    bottom: 15rem;
+    right: 0rem;
+    left: 0rem;
+    rotate: 90deg;
+}
+
+.more-projects {
+    display: flex;
+    padding-top: 1.5rem;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+.more-projects p{
+    font-size: x-large;
+    font-weight: 700;
 }
 
 /* CONTACT */
