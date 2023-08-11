@@ -118,7 +118,10 @@ a:hover {
 }
 
 .menu-links.open{
+    background: linear-gradient(to bottom, rgba(229, 242, 250, 0.95), rgba(65, 178, 243, 0.05));
     max-height: 300px;
+    z-index: 1000;
+    border-radius: 10%;
 }
 
 .hamburger-icon.open span:first-child{
