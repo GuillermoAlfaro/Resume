@@ -42,6 +42,7 @@ nav {
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem;
+    flex-wrap: wrap;
 }
 
 a {
@@ -425,6 +426,7 @@ article .icon {
     background: rgb(250, 250, 250);
     margin: 2rem auto;
     padding: 0.5rem;
+    flex-wrap: wrap;
 }
 
 .contact-info-container {
