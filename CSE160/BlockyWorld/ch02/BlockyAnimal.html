@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Change a point color</title>
+    </head>
+
+    <body onload="main()">
+        <canvas id="webgl" width="400" height="400">
+            Please use a browser that supports "canvas"
+        </canvas>
+        <p id="numdot">[x]</p>
+        <p>Controls: WASD</p>
+        <p>Move up: Shift or space</p>
+        <p>Move down: Control</p>
+        <p>Move camera: mouse on canvas</p>
+
+        <p>
+            Animate
+            <button id="creeperWalkOn">ON</button>
+            <button id="creeperWalkOff">OFF</button>
+            <div>
+                <button id="normalOn">NormalOn</button>
+                <button id="normalOff">NormalOff</button>
+            </div>
+            <div>
+                <button id="lightOn">LightOn</button>
+                <button id="lightOff">LightOff</button>
+            </div>
+        </p>
+        
+
+        <p>
+            Rotate<input
+                type="range"
+                min="-180"
+                max="180"
+                value="-45"
+                class="slider"
+                id="rotateSlider"
+            />
+        </p>
+
+        <p>
+            Upper Arm<input
+                type="range"
+                min="0"
+                max="75"
+                value="0"
+                class="slider"
+                id="upperArmSlider"
+            />
+            Lower Arm<input
+                type="range"
+                min="0"
+                max="75"
+                value="0"
+                class="slider"
+                id="lowerArmSlider"
+            />
+        </p>
+        <p>
+            Light X<input
+                type="range"
+                min="-250"
+                max="250"
+                value="0"
+                class="slider"
+                id="lightX"
+            />
+            Light Y<input
+                type="range"
+                min="-250"
+                max="250"
+                value="100"
+                class="slider"
+                id="lightY"
+            />
+            Light Z<input
+                type="range"
+                min="-250"
+                max="250"
+                value="-200"
+                class="slider"
+                id="lightZ"
+            />
+        </p>
+
+        <script src="../lib/webgl-utils.js"></script>
+        <script src="../lib/webgl-debug.js"></script>
+        <script src="../lib/cuon-utils.js"></script>
+        <script src="../lib/cuon-matrix-cse160.js"></script>
+        <script src="Points.js"></script>
+        <script src="Camera.js"></script>
+        <script src="BlockyAnimal.js"></script>
+        <script src="Cube.js"></script>
+        <script src="Triangle.js"></script>
+        <script src="Circle.js"></script>
+        <script src="Sphere.js"></script>
+    </body>
+</html>
